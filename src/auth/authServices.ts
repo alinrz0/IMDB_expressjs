@@ -1,4 +1,4 @@
-// import { encodeToken, decodeToken } from './../utils/index';
+import { encodeToken, decodeToken } from './../utils/index';
 import UsersModel from "../models/usersModel";
 import LoginDto from "./dtos/loginDto";
 import SignupDto from "./dtos/signupDto";
@@ -22,7 +22,7 @@ export const login = async  (data : LoginDto) =>{
     if (!user) throw new ServerError(404 , "User not found")
     const compare = await bcrypt.compare(data.password , user.password)
     if (!compare) throw new ServerError(400 , "Invalid credentials")
-    // const token = encodeToken({id : user._id})
-    // return {token : `${token}`}
+    const token = encodeToken({id : user.id})
+    return {token : `${token}`}
 
 }
