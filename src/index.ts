@@ -2,6 +2,8 @@ import express, { Request, Response } from 'express';
 import sequelize from './db'; // Import the sequelize instance from db.ts
 
 import {authControllers} from './auth';
+import ErrorHandelingMid  from './middlewares/ErrorHandelingMid';
+
 const app = express();
 const port = 3000;
 
@@ -27,6 +29,10 @@ const initializeDatabase = async () => {
 initializeDatabase();
 
 app.use("/auth" ,authControllers);
+
+
+app.use(ErrorHandelingMid)
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);

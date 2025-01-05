@@ -1,5 +1,5 @@
 // import { encodeToken, decodeToken } from './../utils/index';
-import {UsersModel} from "../models/usersModel";
+import UsersModel from "../models/usersModel";
 import LoginDto from "./dtos/loginDto";
 import SignupDto from "./dtos/signupDto";
 import bcrypt from "bcrypt";
@@ -7,22 +7,22 @@ import ServerError from '../errors/serverError';
 
 
 export const signup = async (data: SignupDto) => {
-    const user = await UsersModel.findOne({ where: { email: data.email } });  // Ensure you're using `where` in Sequelize
+    const user = await UsersModel.findOne({ where: { email: data.email } });
     if (user) throw new ServerError(409, "User already exists");
   
     const hashedPassword = await bcrypt.hash(data.password, 10);
-    const newUser = await UsersModel.create({ ...data, password: hashedPassword });
+    const newUser = await UsersModel.create({...data , password : hashedPassword})
   
-    // `save` is unnecessary as `create` automatically saves the new record
     return newUser;
   };
 
 
 export const login = async  (data : LoginDto) =>{
-    // const user = await usersModel.findOne({email : data.email})
-    // if (!user) throw new ServerError(404 , "User not found")
-    // const compare = await bcrypt.compare(data.password , `${user.password}`)
-    // if (!compare) throw new ServerError(400 , "Invalid credentials")
+    const user = await UsersModel.findOne({ where: { email: data.email } }); 
+    if (!user) throw new ServerError(404 , "User not found")
+    const compare = await bcrypt.compare(data.password , user.password)
+    if (!compare) throw new ServerError(400 , "Invalid credentials")
     // const token = encodeToken({id : user._id})
     // return {token : `${token}`}
+
 }

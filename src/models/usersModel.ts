@@ -1,8 +1,27 @@
-import { DataTypes } from 'sequelize';
-import sequelize from '../db'; // Import the sequelize instance from db.ts
+import { Sequelize, DataTypes, Model, Optional } from 'sequelize';
+import sequelize from '../db';  // Ensure the correct path
 
-// Define the User model
-const UsersModel = sequelize.define('auth', {
+interface UserAttributes {
+  id: number;
+  name: string;
+  email: string;
+  password: string;
+}
+
+interface UserCreationAttributes extends Optional<UserAttributes, 'id'> {}
+
+class User extends Model<UserAttributes, UserCreationAttributes> implements UserAttributes {
+  public id!: number;
+  public name!: string;
+  public email!: string;
+  public password!: string;
+
+  // Timestamps
+  public readonly createdAt!: Date;
+  public readonly updatedAt!: Date;
+}
+
+const UsersModel = sequelize.define<User, UserCreationAttributes>('auth', {
   name: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -18,4 +37,4 @@ const UsersModel = sequelize.define('auth', {
   },
 });
 
-export { UsersModel };
+export default UsersModel;
