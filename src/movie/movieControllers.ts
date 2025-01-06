@@ -1,85 +1,74 @@
 import { Router, Request, Response, NextFunction } from "express";
 import {AuthMiddlware } from "../middlewares";
 // import { getAllMovies, createNewMovie, updateMovie, deleteMovie, getOneMovie } from "./movieServices";
-import {createNewMovie } from "./movieServices";
+import {createMovie,updateMovie,deleteMovie } from "./movieServices";
 import CreateMovieDto from "./dtos/movieCreateDto";
 import GetAllMoviesDto from "./dtos/getAllMovieDto";
-
+import movieModel from '../models/moviesModel'; 
 import { decodeToken } from './../utils/index';
 
 
 const router = Router();
 
-// Route to get all movies
-// router.get("/", async (req: Request, res: Response, next: NextFunction) => {
-//     try {
-//         const filters: any = req.query;
-//         const result = await getAllMovies(filters);
-//         res.status(200).json(result);
-//     } catch (error) {
-//         next(error);
-//     }
-// });
-
-// // Route to get one movie by id
-// router.get("/:id", async (req: Request, res: Response, next: NextFunction) => {
-//     try {
-//         const id: string = req.params.id;
-//         const result = await getOneMovie(id);
-//         res.status(200).json(result);
-//     } catch (error) {
-//         next(error);
-//     }
-// });
-
-// Route to create a new movie
+// Create a new movie
 router.post("/", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
         const data: CreateMovieDto = req.body;
-
-        // Extract token from authorization header or cookies
-        const token = req.cookies.token.token;
+        const token = req.cookies.token?.token;
 
         if (!token) {
-            res.status(401).json({ message: 'Token not found or invalid' });
+            res.status(401).json({ message: "Token not found or invalid" });
             return;
         }
 
-        // Decode the token to get user details
-        const user = decodeToken(token);
-
-        // Create a new movie with user_id
-        const result = await createNewMovie({ ...data, user_id: user.id });
-
-        // Send the created movie as response
+        const result = await createMovie(data, token);
         res.status(200).json(result);
     } catch (error) {
         console.error(error);
-        next(error); // Pass error to the next middleware (error handler)
+        next(error);
     }
 });
 
-// Route to update a movie by id
-// router.put("/:id", AuthMiddleware, async (req: RequestWithUser, res: Response, next: NextFunction) => {
-//     try {
-//         const data: CreateMovieDto = req.body;
-//         const id: string = req.params.id;
-//         const result = await updateMovie(id, { ...data, user: req.user });
-//         res.status(200).json(result);
-//     } catch (error) {
-//         next(error);
-//     }
-// });
+// Update a movie by ID
+router.put("/:id", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+        const movieId = parseInt(req.params.id);
+        const data: Partial<CreateMovieDto> = req.body;
+        const token = req.cookies.token?.token;
 
-// // Route to delete a movie by id
-// router.delete("/:id", AuthMiddleware, async (req: RequestWithUser, res: Response, next: NextFunction) => {
-//     try {
-//         const id: string = req.params.id;
-//         const result = await deleteMovie(id, req.user);
-//         res.status(200).json(result);
-//     } catch (error) {
-//         next(error);
-//     }
-// });
+        if (!token) {
+            res.status(401).json({ message: "Token not found or invalid" });
+            return;
+        }
+
+        const result = await updateMovie(movieId, data, token);
+        res.status(200).json(result);
+    } catch (error) {
+        console.error(error);
+        next(error);
+    }
+});
+
+// Delete a movie by ID
+router.delete("/:id", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+        const movieId = parseInt(req.params.id);
+        const token = req.cookies.token?.token;
+
+        if (!token) {
+            res.status(401).json({ message: "Token not found or invalid" });
+            return;
+        }
+
+        const result = await deleteMovie(movieId, token);
+        res.status(200).json(result);
+    } catch (error) {
+        console.error(error);
+        next(error);
+    }
+});
+
+
+
 
 export default router;

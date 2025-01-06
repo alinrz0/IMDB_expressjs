@@ -41,9 +41,7 @@ initializeDatabase();
 
 app.use("/auth" ,authControllers);
 app.use("/movie" ,movieControllers);
-// app.post("/movies",(req: Request, res: Response)=>{
-//   console.log( req.cookies.token)
-// })
+//  
 
 
 app.use(ErrorHandelingMid)
