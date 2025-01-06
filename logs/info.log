@@ -297,3 +297,93 @@
 2025-01-07 00:23:51 info : Server is running on http://localhost:3000
 2025-01-07 00:23:51 info : Connection to the database has been established successfully.
 2025-01-07 00:23:51 info : Database tables are synchronized.
+2025-01-07 01:17:29 info : Server is running on http://localhost:3000
+2025-01-07 01:17:29 info : Connection to the database has been established successfully.
+2025-01-07 01:17:29 info : Database tables are synchronized.
+2025-01-07 01:19:37 info : Server is running on http://localhost:3000
+2025-01-07 01:19:37 info : Connection to the database has been established successfully.
+2025-01-07 01:19:37 info : Database tables are synchronized.
+2025-01-07 01:23:11 info : Server is running on http://localhost:3000
+2025-01-07 01:23:11 info : Connection to the database has been established successfully.
+2025-01-07 01:23:11 info : Database tables are synchronized.
+2025-01-07 01:23:37 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:23:50 info : Server is running on http://localhost:3000
+2025-01-07 01:23:50 info : Connection to the database has been established successfully.
+2025-01-07 01:23:50 info : Database tables are synchronized.
+2025-01-07 01:23:56 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:25:06 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:26:12 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:27:40 info : Server is running on http://localhost:3000
+2025-01-07 01:27:40 info : Connection to the database has been established successfully.
+2025-01-07 01:27:40 info : Database tables are synchronized.
+2025-01-07 01:27:45 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:29:26 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:30:18 info : Server is running on http://localhost:3000
+2025-01-07 01:30:18 info : Connection to the database has been established successfully.
+2025-01-07 01:30:18 info : Database tables are synchronized.
+2025-01-07 01:30:23 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:32:17 info : Server is running on http://localhost:3000
+2025-01-07 01:32:17 info : Connection to the database has been established successfully.
+2025-01-07 01:32:17 info : Database tables are synchronized.
+2025-01-07 01:32:19 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:33:25 info : Server is running on http://localhost:3000
+2025-01-07 01:33:25 info : Connection to the database has been established successfully.
+2025-01-07 01:33:25 info : Database tables are synchronized.
+2025-01-07 01:33:30 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:33:32 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:36:21 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:37:12 info : Server is running on http://localhost:3000
+2025-01-07 01:37:12 info : Connection to the database has been established successfully.
+2025-01-07 01:37:12 info : Database tables are synchronized.
+2025-01-07 01:37:15 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:37:54 info : Server is running on http://localhost:3000
+2025-01-07 01:37:54 info : Connection to the database has been established successfully.
+2025-01-07 01:37:54 info : Database tables are synchronized.
+2025-01-07 01:37:54 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:38:02 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:38:06 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:38:07 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:38:56 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:39:07 info : Server is running on http://localhost:3000
+2025-01-07 01:39:07 info : Connection to the database has been established successfully.
+2025-01-07 01:39:07 info : Database tables are synchronized.
+2025-01-07 01:39:57 info : Server is running on http://localhost:3000
+2025-01-07 01:39:57 info : Connection to the database has been established successfully.
+2025-01-07 01:39:57 info : Database tables are synchronized.
+2025-01-07 01:39:57 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:39:59 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:40:01 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:41:04 info : Server is running on http://localhost:3000
+2025-01-07 01:41:04 info : Connection to the database has been established successfully.
+2025-01-07 01:41:04 info : Database tables are synchronized.
+2025-01-07 01:41:06 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:41:14 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:42:33 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:42:39 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:42:44 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:43:30 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:46:04 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:48:55 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:49:05 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:49:44 info : Server is running on http://localhost:3000
+2025-01-07 01:49:44 info : Connection to the database has been established successfully.
+2025-01-07 01:49:44 info : Database tables are synchronized.
+2025-01-07 01:50:00 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:54:33 info : Server is running on http://localhost:3000
+2025-01-07 01:54:33 info : Connection to the database has been established successfully.
+2025-01-07 01:54:33 info : Database tables are synchronized.
+2025-01-07 01:55:07 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:55:11 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:56:06 info : Server is running on http://localhost:3000
+2025-01-07 01:56:06 info : Connection to the database has been established successfully.
+2025-01-07 01:56:06 info : Database tables are synchronized.
+2025-01-07 01:56:18 info : Server is running on http://localhost:3000
+2025-01-07 01:56:18 info : Connection to the database has been established successfully.
+2025-01-07 01:56:18 info : Database tables are synchronized.
+2025-01-07 01:56:53 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 01:57:15 info : Server is running on http://localhost:3000
+2025-01-07 01:57:15 info : Connection to the database has been established successfully.
+2025-01-07 01:57:15 info : Database tables are synchronized.
+2025-01-07 02:00:00 info : Server is running on http://localhost:3000
+2025-01-07 02:00:00 info : Connection to the database has been established successfully.
+2025-01-07 02:00:00 info : Database tables are synchronized.
