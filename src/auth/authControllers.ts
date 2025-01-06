@@ -11,6 +11,11 @@ router.post("/login" , ValidateMiddleware(LoginDto) ,  async (req : Request , re
     try{
         const body : LoginDto = req.body;
         const result = await login(body)
+        res.cookie('token', result, {
+            httpOnly: true,    // Can't be accessed by JavaScript (prevents XSS attacks)
+            secure: process.env.NODE_ENV === 'production', // Only send the cookie over HTTPS
+            maxAge: 3600000,   // 1 hour expiration time
+        });
         res.send(result)   
     }catch(err :any){
         next(err)

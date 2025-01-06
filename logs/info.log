@@ -1,0 +1,272 @@
+2025-01-05 23:14:25 info : Server is running on http://localhost:3000
+2025-01-05 23:14:25 info : Connection to the database has been established successfully.
+2025-01-05 23:14:25 info : Database tables are synchronized.
+2025-01-05 23:36:16 info : Server is running on http://localhost:3000
+2025-01-05 23:36:16 error : Unable to connect to the database or sync: Access denied for user 'root'@'localhost' (using password: YES)
+2025-01-05 23:36:28 info : Server is running on http://localhost:3000
+2025-01-05 23:36:28 info : Connection to the database has been established successfully.
+2025-01-05 23:36:28 info : Database tables are synchronized.
+2025-01-05 23:47:53 info : Server is running on http://localhost:3000
+2025-01-05 23:47:53 info : Connection to the database has been established successfully.
+2025-01-05 23:47:53 info : Database tables are synchronized.
+2025-01-05 23:49:21 info : Server is running on http://localhost:3000
+2025-01-05 23:49:21 info : Connection to the database has been established successfully.
+2025-01-05 23:49:21 info : Database tables are synchronized.
+2025-01-05 23:49:34 info : Server is running on http://localhost:3000
+2025-01-05 23:49:34 info : Connection to the database has been established successfully.
+2025-01-05 23:49:34 info : Database tables are synchronized.
+2025-01-05 23:49:39 info : Server is running on http://localhost:3000
+2025-01-05 23:49:39 info : Connection to the database has been established successfully.
+2025-01-05 23:49:39 info : Database tables are synchronized.
+2025-01-05 23:54:39 info : Server is running on http://localhost:3000
+2025-01-05 23:54:39 info : Connection to the database has been established successfully.
+2025-01-05 23:54:39 info : Database tables are synchronized.
+2025-01-05 23:55:07 info : Server is running on http://localhost:3000
+2025-01-05 23:55:07 info : Connection to the database has been established successfully.
+2025-01-05 23:55:07 info : Database tables are synchronized.
+2025-01-05 23:56:03 info : Server is running on http://localhost:3000
+2025-01-05 23:56:03 info : Connection to the database has been established successfully.
+2025-01-05 23:56:03 info : Database tables are synchronized.
+2025-01-05 23:56:19 info : Server is running on http://localhost:3000
+2025-01-05 23:56:19 info : Connection to the database has been established successfully.
+2025-01-05 23:56:19 info : Database tables are synchronized.
+2025-01-05 23:56:29 info : Server is running on http://localhost:3000
+2025-01-05 23:56:29 info : Connection to the database has been established successfully.
+2025-01-05 23:56:29 info : Database tables are synchronized.
+2025-01-05 23:56:48 info : Server is running on http://localhost:3000
+2025-01-05 23:56:48 info : Connection to the database has been established successfully.
+2025-01-05 23:56:48 info : Database tables are synchronized.
+2025-01-05 23:58:18 info : Server is running on http://localhost:3000
+2025-01-05 23:58:18 info : Connection to the database has been established successfully.
+2025-01-05 23:58:18 info : Database tables are synchronized.
+2025-01-05 23:58:26 info : Server is running on http://localhost:3000
+2025-01-05 23:58:26 info : Connection to the database has been established successfully.
+2025-01-05 23:58:26 info : Database tables are synchronized.
+2025-01-05 23:59:14 info : Server is running on http://localhost:3000
+2025-01-05 23:59:14 info : Connection to the database has been established successfully.
+2025-01-05 23:59:14 info : Database tables are synchronized.
+2025-01-06 00:01:42 info : Server is running on http://localhost:3000
+2025-01-06 00:01:43 info : Connection to the database has been established successfully.
+2025-01-06 00:01:43 info : Database tables are synchronized.
+2025-01-06 12:52:19 info : Server is running on http://localhost:3000
+2025-01-06 12:52:19 info : Connection to the database has been established successfully.
+2025-01-06 12:52:19 info : Database tables are synchronized.
+2025-01-06 13:33:54 info : Server is running on http://localhost:3000
+2025-01-06 13:33:54 info : Connection to the database has been established successfully.
+2025-01-06 13:33:54 info : Database tables are synchronized.
+2025-01-06 13:40:04 info : Server is running on http://localhost:3000
+2025-01-06 13:40:04 info : Connection to the database has been established successfully.
+2025-01-06 13:40:04 info : Database tables are synchronized.
+2025-01-06 13:40:41 info : Server is running on http://localhost:3000
+2025-01-06 13:40:41 info : Connection to the database has been established successfully.
+2025-01-06 13:40:41 info : Database tables are synchronized.
+2025-01-06 13:40:46 info : Server is running on http://localhost:3000
+2025-01-06 13:40:46 info : Connection to the database has been established successfully.
+2025-01-06 13:40:46 info : Database tables are synchronized.
+2025-01-06 13:45:41 info : Server is running on http://localhost:3000
+2025-01-06 13:45:41 info : Connection to the database has been established successfully.
+2025-01-06 13:45:41 info : Database tables are synchronized.
+2025-01-06 13:45:58 info : Server is running on http://localhost:3000
+2025-01-06 13:45:58 info : Connection to the database has been established successfully.
+2025-01-06 13:45:58 info : Database tables are synchronized.
+2025-01-06 13:51:59 info : Server is running on http://localhost:3000
+2025-01-06 13:51:59 info : Connection to the database has been established successfully.
+2025-01-06 13:51:59 info : Database tables are synchronized.
+2025-01-06 13:54:35 info : Server is running on http://localhost:3000
+2025-01-06 13:54:35 info : Connection to the database has been established successfully.
+2025-01-06 13:54:35 info : Database tables are synchronized.
+2025-01-06 13:55:50 info : Server is running on http://localhost:3000
+2025-01-06 13:55:50 info : Connection to the database has been established successfully.
+2025-01-06 13:55:50 info : Database tables are synchronized.
+2025-01-06 14:02:43 info : Server is running on http://localhost:3000
+2025-01-06 14:02:43 info : Connection to the database has been established successfully.
+2025-01-06 14:02:43 info : Database tables are synchronized.
+2025-01-06 14:06:41 info : Server is running on http://localhost:3000
+2025-01-06 14:06:42 info : Connection to the database has been established successfully.
+2025-01-06 14:06:42 info : Database tables are synchronized.
+2025-01-06 14:32:04 info : Server is running on http://localhost:3000
+2025-01-06 14:32:04 info : Connection to the database has been established successfully.
+2025-01-06 14:32:04 info : Database tables are synchronized.
+2025-01-06 14:36:42 info : Server is running on http://localhost:3000
+2025-01-06 14:36:42 info : Connection to the database has been established successfully.
+2025-01-06 14:36:42 info : Database tables are synchronized.
+2025-01-06 14:36:51 info : Server is running on http://localhost:3000
+2025-01-06 14:36:51 info : Connection to the database has been established successfully.
+2025-01-06 14:36:51 info : Database tables are synchronized.
+2025-01-06 14:48:42 info : Server is running on http://localhost:3000
+2025-01-06 14:48:42 info : Connection to the database has been established successfully.
+2025-01-06 14:48:42 info : Database tables are synchronized.
+2025-01-06 19:17:14 info : Server is running on http://localhost:3000
+2025-01-06 19:17:14 info : Connection to the database has been established successfully.
+2025-01-06 19:17:14 info : Database tables are synchronized.
+2025-01-06 19:18:06 info : Server is running on http://localhost:3000
+2025-01-06 19:18:06 info : Connection to the database has been established successfully.
+2025-01-06 19:18:06 info : Database tables are synchronized.
+2025-01-06 19:18:47 info : Server is running on http://localhost:3000
+2025-01-06 19:18:47 info : Connection to the database has been established successfully.
+2025-01-06 19:18:47 info : Database tables are synchronized.
+2025-01-06 19:19:09 info : Server is running on http://localhost:3000
+2025-01-06 19:19:09 info : Connection to the database has been established successfully.
+2025-01-06 19:19:09 info : Database tables are synchronized.
+2025-01-06 19:20:50 info : Server is running on http://localhost:3000
+2025-01-06 19:20:50 info : Connection to the database has been established successfully.
+2025-01-06 19:20:50 info : Database tables are synchronized.
+2025-01-06 19:23:13 info : Server is running on http://localhost:3000
+2025-01-06 19:23:13 info : Connection to the database has been established successfully.
+2025-01-06 19:23:13 info : Database tables are synchronized.
+2025-01-06 19:23:48 info : Server is running on http://localhost:3000
+2025-01-06 19:23:48 info : Connection to the database has been established successfully.
+2025-01-06 19:23:48 info : Database tables are synchronized.
+2025-01-06 19:24:12 info : Server is running on http://localhost:3000
+2025-01-06 19:24:12 info : Connection to the database has been established successfully.
+2025-01-06 19:24:12 info : Database tables are synchronized.
+2025-01-06 19:28:57 info : Server is running on http://localhost:3000
+2025-01-06 19:28:57 info : Connection to the database has been established successfully.
+2025-01-06 19:28:57 info : Database tables are synchronized.
+2025-01-06 19:30:23 info : Server is running on http://localhost:3000
+2025-01-06 19:30:23 info : Connection to the database has been established successfully.
+2025-01-06 19:30:23 info : Database tables are synchronized.
+2025-01-06 19:31:05 info : Server is running on http://localhost:3000
+2025-01-06 19:31:05 info : Connection to the database has been established successfully.
+2025-01-06 19:31:05 info : Database tables are synchronized.
+2025-01-06 19:31:26 info : Server is running on http://localhost:3000
+2025-01-06 19:31:26 info : Connection to the database has been established successfully.
+2025-01-06 19:31:26 info : Database tables are synchronized.
+2025-01-06 19:32:14 info : Server is running on http://localhost:3000
+2025-01-06 19:32:14 info : Connection to the database has been established successfully.
+2025-01-06 19:32:14 info : Database tables are synchronized.
+2025-01-06 19:32:50 info : Server is running on http://localhost:3000
+2025-01-06 19:32:50 info : Connection to the database has been established successfully.
+2025-01-06 19:32:50 info : Database tables are synchronized.
+2025-01-06 19:33:03 info : Server is running on http://localhost:3000
+2025-01-06 19:33:03 info : Connection to the database has been established successfully.
+2025-01-06 19:33:03 info : Database tables are synchronized.
+2025-01-06 19:35:17 info : Server is running on http://localhost:3000
+2025-01-06 19:35:17 info : Connection to the database has been established successfully.
+2025-01-06 19:35:17 info : Database tables are synchronized.
+2025-01-06 19:36:10 info : Server is running on http://localhost:3000
+2025-01-06 19:36:10 info : Connection to the database has been established successfully.
+2025-01-06 19:36:10 info : Database tables are synchronized.
+2025-01-06 19:38:05 info : Server is running on http://localhost:3000
+2025-01-06 19:38:05 info : Connection to the database has been established successfully.
+2025-01-06 19:38:05 info : Database tables are synchronized.
+2025-01-06 19:38:55 info : Server is running on http://localhost:3000
+2025-01-06 19:38:55 info : Connection to the database has been established successfully.
+2025-01-06 19:38:55 info : Database tables are synchronized.
+2025-01-06 19:39:33 info : Server is running on http://localhost:3000
+2025-01-06 19:39:33 info : Connection to the database has been established successfully.
+2025-01-06 19:39:33 info : Database tables are synchronized.
+2025-01-06 19:40:22 info : Server is running on http://localhost:3000
+2025-01-06 19:40:22 info : Connection to the database has been established successfully.
+2025-01-06 19:40:22 info : Database tables are synchronized.
+2025-01-06 19:40:46 info : Server is running on http://localhost:3000
+2025-01-06 19:40:46 info : Connection to the database has been established successfully.
+2025-01-06 19:40:46 info : Database tables are synchronized.
+2025-01-06 19:44:14 info : Server is running on http://localhost:3000
+2025-01-06 19:44:14 info : Connection to the database has been established successfully.
+2025-01-06 19:44:14 info : Database tables are synchronized.
+2025-01-06 19:46:22 info : Server is running on http://localhost:3000
+2025-01-06 19:46:22 info : Connection to the database has been established successfully.
+2025-01-06 19:46:22 info : Database tables are synchronized.
+2025-01-06 19:47:45 info : Server is running on http://localhost:3000
+2025-01-06 19:47:45 info : Connection to the database has been established successfully.
+2025-01-06 19:47:45 info : Database tables are synchronized.
+2025-01-06 19:53:51 info : Server is running on http://localhost:3000
+2025-01-06 19:53:51 info : Connection to the database has been established successfully.
+2025-01-06 19:53:51 info : Database tables are synchronized.
+2025-01-06 19:54:25 info : Server is running on http://localhost:3000
+2025-01-06 19:54:25 info : Connection to the database has been established successfully.
+2025-01-06 19:54:25 info : Database tables are synchronized.
+2025-01-06 19:55:24 info : Server is running on http://localhost:3000
+2025-01-06 19:55:24 info : Connection to the database has been established successfully.
+2025-01-06 19:55:24 info : Database tables are synchronized.
+2025-01-06 20:00:41 info : Server is running on http://localhost:3000
+2025-01-06 20:00:41 info : Connection to the database has been established successfully.
+2025-01-06 20:00:41 info : Database tables are synchronized.
+2025-01-06 20:02:04 info : Server is running on http://localhost:3000
+2025-01-06 20:02:04 info : Connection to the database has been established successfully.
+2025-01-06 20:02:04 info : Database tables are synchronized.
+2025-01-06 20:02:40 info : Server is running on http://localhost:3000
+2025-01-06 20:02:40 info : Connection to the database has been established successfully.
+2025-01-06 20:02:40 info : Database tables are synchronized.
+2025-01-06 20:04:07 info : Server is running on http://localhost:3000
+2025-01-06 20:04:07 info : Connection to the database has been established successfully.
+2025-01-06 20:04:07 info : Database tables are synchronized.
+2025-01-06 22:20:48 info : Server is running on http://localhost:3000
+2025-01-06 22:20:48 info : Connection to the database has been established successfully.
+2025-01-06 22:20:48 info : Database tables are synchronized.
+2025-01-06 22:26:21 info : Server is running on http://localhost:3000
+2025-01-06 22:26:22 info : Connection to the database has been established successfully.
+2025-01-06 22:26:22 info : Database tables are synchronized.
+2025-01-06 22:26:36 info : Server is running on http://localhost:3000
+2025-01-06 22:26:37 info : Connection to the database has been established successfully.
+2025-01-06 22:26:37 info : Database tables are synchronized.
+2025-01-06 22:35:39 info : Server is running on http://localhost:3000
+2025-01-06 22:35:39 info : Connection to the database has been established successfully.
+2025-01-06 22:35:39 info : Database tables are synchronized.
+2025-01-06 22:35:50 info : Server is running on http://localhost:3000
+2025-01-06 22:35:50 info : Connection to the database has been established successfully.
+2025-01-06 22:35:50 info : Database tables are synchronized.
+2025-01-06 22:37:25 info : Server is running on http://localhost:3000
+2025-01-06 22:37:25 info : Connection to the database has been established successfully.
+2025-01-06 22:37:25 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 22:38:03 info : Server is running on http://localhost:3000
+2025-01-06 22:38:03 info : Connection to the database has been established successfully.
+2025-01-06 22:38:03 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 22:38:19 info : Server is running on http://localhost:3000
+2025-01-06 22:38:19 info : Connection to the database has been established successfully.
+2025-01-06 22:38:19 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 22:39:01 info : Server is running on http://localhost:3000
+2025-01-06 22:39:01 info : Connection to the database has been established successfully.
+2025-01-06 22:39:01 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 23:18:48 info : Server is running on http://localhost:3000
+2025-01-06 23:18:48 info : Connection to the database has been established successfully.
+2025-01-06 23:18:48 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 23:19:12 info : Server is running on http://localhost:3000
+2025-01-06 23:19:12 info : Connection to the database has been established successfully.
+2025-01-06 23:19:12 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 23:20:21 info : Server is running on http://localhost:3000
+2025-01-06 23:20:21 info : Connection to the database has been established successfully.
+2025-01-06 23:20:21 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 23:23:34 info : Server is running on http://localhost:3000
+2025-01-06 23:23:34 info : Connection to the database has been established successfully.
+2025-01-06 23:23:34 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 23:26:36 info : Server is running on http://localhost:3000
+2025-01-06 23:26:36 info : Connection to the database has been established successfully.
+2025-01-06 23:26:36 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 23:28:19 info : Server is running on http://localhost:3000
+2025-01-06 23:28:19 info : Connection to the database has been established successfully.
+2025-01-06 23:28:19 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 23:28:42 info : Server is running on http://localhost:3000
+2025-01-06 23:28:42 info : Connection to the database has been established successfully.
+2025-01-06 23:28:42 error : Unable to connect to the database or sync: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, P' at line 1
+2025-01-06 23:30:29 info : Server is running on http://localhost:3000
+2025-01-06 23:30:29 info : Connection to the database has been established successfully.
+2025-01-06 23:30:29 info : Database tables are synchronized.
+2025-01-06 23:32:01 info : Server is running on http://localhost:3000
+2025-01-06 23:32:01 info : Connection to the database has been established successfully.
+2025-01-06 23:32:01 info : Database tables are synchronized.
+2025-01-06 23:33:30 info : Server is running on http://localhost:3000
+2025-01-06 23:33:30 info : Connection to the database has been established successfully.
+2025-01-06 23:33:30 info : Database tables are synchronized.
+2025-01-06 23:34:16 info : Server is running on http://localhost:3000
+2025-01-06 23:34:16 info : Connection to the database has been established successfully.
+2025-01-06 23:34:16 info : Database tables are synchronized.
+2025-01-06 23:34:31 info : Server is running on http://localhost:3000
+2025-01-06 23:34:31 info : Connection to the database has been established successfully.
+2025-01-06 23:34:31 info : Database tables are synchronized.
+2025-01-06 23:36:38 info : Server is running on http://localhost:3000
+2025-01-06 23:36:38 info : Connection to the database has been established successfully.
+2025-01-06 23:36:38 info : Database tables are synchronized.
+2025-01-06 23:37:09 info : Server is running on http://localhost:3000
+2025-01-06 23:37:09 info : Connection to the database has been established successfully.
+2025-01-06 23:37:09 info : Database tables are synchronized.
+2025-01-06 23:41:37 info : Server is running on http://localhost:3000
+2025-01-06 23:41:37 info : Connection to the database has been established successfully.
+2025-01-06 23:41:37 info : Database tables are synchronized.
+2025-01-06 23:42:34 info : Server is running on http://localhost:3000
+2025-01-06 23:42:34 info : Connection to the database has been established successfully.
+2025-01-06 23:42:34 info : Database tables are synchronized.
+2025-01-06 23:45:00 info : Server is running on http://localhost:3000
+2025-01-06 23:45:00 info : Connection to the database has been established successfully.
+2025-01-06 23:45:00 info : Database tables are synchronized.

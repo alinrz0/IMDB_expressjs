@@ -1,7 +1,7 @@
 import { Sequelize } from 'sequelize';
 
 // Initialize Sequelize with MySQL connection
-const sequelize = new Sequelize('imdb', 'root', '20040502', {
+const sequelize = new Sequelize('imdb', 'root', '1234', {
   host: 'localhost',
   dialect: 'mysql',
 });

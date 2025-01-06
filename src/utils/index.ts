@@ -6,7 +6,13 @@ export const encodeToken = (payload : any) =>{
     return token;
 }
 
-export const decodeToken = (token : string) =>{
-    const decoded = jwt.verify(token , SECRECT)
+interface DecodedToken {
+    id: number;  // or string, depending on your token structure
+    iat: number;
+    exp: number;
+  }
+  
+  export const decodeToken = (token: string): DecodedToken => {
+    const decoded = jwt.verify(token, SECRECT) as DecodedToken; // Cast the result to DecodedToken
     return decoded;
-}
+  }

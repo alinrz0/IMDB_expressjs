@@ -1,5 +1,5 @@
 import { Sequelize, DataTypes, Model, Optional } from 'sequelize';
-import sequelize from '../db';  // Ensure the correct path
+import sequelize from '../db';  
 
 interface UserAttributes {
   id: number;
@@ -19,6 +19,7 @@ class User extends Model<UserAttributes, UserCreationAttributes> implements User
   // Timestamps
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
+    private _id: any;
 }
 
 const UsersModel = sequelize.define<User, UserCreationAttributes>('auth', {
