@@ -15,7 +15,6 @@ router.get("/my", async (req: Request, res: Response, next: NextFunction): Promi
             res.status(401).json({ message: "Token not found or invalid" });
             return;
         }
-        // Decode token to get user details
         const user = decodeToken(token);
         // Fetch all movies created by the logged-in user
         const userMovies = await movieModel.findAll({ where: { user_id: user.id } });
@@ -36,9 +35,6 @@ router.get("/", async (req: Request, res: Response, next: NextFunction): Promise
     }
 });
 
-
-
-// Get a single movie by ID
 router.get("/:id", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
         const movieId = parseInt(req.params.id);
@@ -56,8 +52,6 @@ router.get("/:id", async (req: Request, res: Response, next: NextFunction): Prom
     }
 });
 
-
-// Define the route with multer
 router.post("/", upload.single("image"), async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     
     try {
@@ -74,7 +68,6 @@ router.post("/", upload.single("image"), async (req: Request, res: Response, nex
             data.image = req.file.path; // Save the path of the uploaded image
         }
 
-        // Create the movie
         const result = await createMovie(data, token);
 
         res.status(200).json(result);
@@ -84,9 +77,6 @@ router.post("/", upload.single("image"), async (req: Request, res: Response, nex
     }
 });
 
-
-// Update a movie by ID
-// Update a movie by ID with optional image upload
 router.put("/:id", upload.single("image"), async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
         const movieId = parseInt(req.params.id);
@@ -100,7 +90,7 @@ router.put("/:id", upload.single("image"), async (req: Request, res: Response, n
 
         // If a new image is uploaded, append the image path to the movie data
         if (req.file) {
-            // Optionally, delete the old image from disk if it exists
+            // delete the old image from disk if it exists
             if (data.image) {
                 // Delete old image from disk (you might need to use 'fs' to delete the old file)
                 const fs = require('fs');
@@ -126,8 +116,6 @@ router.put("/:id", upload.single("image"), async (req: Request, res: Response, n
     }
 });
 
-
-// Delete a movie by ID
 router.delete("/:id", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
         const movieId = parseInt(req.params.id);
@@ -145,8 +133,5 @@ router.delete("/:id", async (req: Request, res: Response, next: NextFunction): P
         next(error);
     }
 });
-
-
-
 
 export default router;

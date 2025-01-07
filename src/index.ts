@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
 import logger from './helper/logger';
-import sequelize from './db'; // Import the sequelize instance from db.ts
+import sequelize from './db'; 
 import cookieParser from 'cookie-parser';
 import path from "path";
 
@@ -13,9 +13,6 @@ import ErrorHandelingMid  from './middlewares/ErrorHandelingMid';
 
 const app = express();
 const port = 3000;
-declare global {
-  var token: { token: string }; // Declaring 'token' as an object with a 'token' field of type string
-}
 
 app.set('view engine', 'ejs');
 app.set("views", path.join(__dirname,"home","views"));
@@ -23,7 +20,6 @@ app.use(express.static(path.join(__dirname, "home",'public')));
 
 app.use(cookieParser());
 
-// Middleware to parse incoming request bodies
 app.use(cors());
 app.use(express.json());
 
@@ -42,21 +38,16 @@ const initializeDatabase = async () => {
   }
 };
 
-// Initialize the database
 initializeDatabase();
 
 app.use("/auth" ,authControllers);
 app.use("/movie" ,movieControllers);
 app.use("/" ,homeControllers);
-//  
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-
-
 app.use(ErrorHandelingMid)
 
-// Start the server
 app.listen(port, () => {
   logger.info(`Server is running on http://localhost:${port}`);
 });
