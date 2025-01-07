@@ -7,6 +7,7 @@ import logger from "../helper/logger";
 
 
 const router = Router();
+
 router.get("/my", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
         const token = req.cookies.token?.token;
@@ -34,6 +35,8 @@ router.get("/", async (req: Request, res: Response, next: NextFunction): Promise
         next(error);
     }
 });
+
+
 
 // Get a single movie by ID
 router.get("/:id", async (req: Request, res: Response, next: NextFunction): Promise<void> => {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">
+  <h1 style="text-align: center;">Movies</h1>
+  <div class="container" id="movies-container">
+    <% data.forEach((movie) => { %>
+    <div class="movie-box">
+        <div class="movie-image">
+            <img src="<%= movie.image %>" alt="<%= movie.title %>" width="200">
+        </div>
+        <div class="movie-info">
+          <h2 class="movie-title"><%= movie.title %></h2>
+          <p class="movie-year"><%= movie.description %></p>
+        </div>
+      </div>
+      <% }) %>
+      
+  </div>
+  <div id="loading" style="text-align: center; padding: 20px; display: none;">Loading...</div>
+</body>
+</html>
