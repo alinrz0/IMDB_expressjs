@@ -116,3 +116,11 @@
 2025-01-07 13:24:20 error : Unknown column 'NaN' in 'where clause'
 2025-01-07 13:24:20 error : Unknown column 'NaN' in 'where clause'
 2025-01-07 13:24:20 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 14:10:35 error : notNull Violation: movie.title cannot be null,
+notNull Violation: movie.description cannot be null,
+notNull Violation: movie.image cannot be null
+2025-01-07 14:20:57 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 14:22:13 error : Movie not found or you do not have permission to delete it
+2025-01-07 14:22:19 error : Movie not found or you do not have permission to delete it
+2025-01-07 14:22:41 error : Movie not found or you do not have permission to delete it
+2025-01-07 15:34:44 error : Unknown column 'NaN' in 'where clause'

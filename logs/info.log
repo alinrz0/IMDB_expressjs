@@ -550,3 +550,71 @@
 2025-01-07 13:24:20 error : Unknown column 'NaN' in 'where clause'
 2025-01-07 13:24:20 error : Unknown column 'NaN' in 'where clause'
 2025-01-07 13:24:20 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 13:36:22 info : Server is running on http://localhost:3000
+2025-01-07 13:36:22 info : Connection to the database has been established successfully.
+2025-01-07 13:36:22 info : Database tables are synchronized.
+2025-01-07 13:43:36 info : Server is running on http://localhost:3000
+2025-01-07 13:43:36 info : Connection to the database has been established successfully.
+2025-01-07 13:43:36 info : Database tables are synchronized.
+2025-01-07 13:44:24 info : Server is running on http://localhost:3000
+2025-01-07 13:44:24 info : Connection to the database has been established successfully.
+2025-01-07 13:44:24 info : Database tables are synchronized.
+2025-01-07 13:56:07 info : Server is running on http://localhost:3000
+2025-01-07 13:56:07 info : Connection to the database has been established successfully.
+2025-01-07 13:56:07 info : Database tables are synchronized.
+2025-01-07 14:01:56 info : Server is running on http://localhost:3000
+2025-01-07 14:01:56 info : Connection to the database has been established successfully.
+2025-01-07 14:01:56 info : Database tables are synchronized.
+2025-01-07 14:02:29 info : Server is running on http://localhost:3000
+2025-01-07 14:02:29 info : Connection to the database has been established successfully.
+2025-01-07 14:02:29 info : Database tables are synchronized.
+2025-01-07 14:05:09 info : Server is running on http://localhost:3000
+2025-01-07 14:05:09 info : Connection to the database has been established successfully.
+2025-01-07 14:05:09 info : Database tables are synchronized.
+2025-01-07 14:06:00 info : Server is running on http://localhost:3000
+2025-01-07 14:06:00 info : Connection to the database has been established successfully.
+2025-01-07 14:06:00 info : Database tables are synchronized.
+2025-01-07 14:10:22 info : Server is running on http://localhost:3000
+2025-01-07 14:10:22 info : Connection to the database has been established successfully.
+2025-01-07 14:10:22 info : Database tables are synchronized.
+2025-01-07 14:10:35 error : notNull Violation: movie.title cannot be null,
+notNull Violation: movie.description cannot be null,
+notNull Violation: movie.image cannot be null
+2025-01-07 14:13:15 info : Server is running on http://localhost:3000
+2025-01-07 14:13:15 info : Connection to the database has been established successfully.
+2025-01-07 14:13:15 info : Database tables are synchronized.
+2025-01-07 14:20:04 info : Server is running on http://localhost:3000
+2025-01-07 14:20:04 info : Connection to the database has been established successfully.
+2025-01-07 14:20:04 info : Database tables are synchronized.
+2025-01-07 14:20:15 info : Server is running on http://localhost:3000
+2025-01-07 14:20:15 info : Connection to the database has been established successfully.
+2025-01-07 14:20:15 info : Database tables are synchronized.
+2025-01-07 14:20:57 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 14:22:13 error : Movie not found or you do not have permission to delete it
+2025-01-07 14:22:19 error : Movie not found or you do not have permission to delete it
+2025-01-07 14:22:41 error : Movie not found or you do not have permission to delete it
+2025-01-07 14:23:14 info : Server is running on http://localhost:3000
+2025-01-07 14:23:14 info : Connection to the database has been established successfully.
+2025-01-07 14:23:14 info : Database tables are synchronized.
+2025-01-07 15:32:14 info : Server is running on http://localhost:3000
+2025-01-07 15:32:14 info : Connection to the database has been established successfully.
+2025-01-07 15:32:14 info : Database tables are synchronized.
+2025-01-07 15:34:44 error : Unknown column 'NaN' in 'where clause'
+2025-01-07 15:36:48 info : Server is running on http://localhost:3000
+2025-01-07 15:36:48 info : Connection to the database has been established successfully.
+2025-01-07 15:36:48 info : Database tables are synchronized.
+2025-01-07 15:38:53 info : Server is running on http://localhost:3000
+2025-01-07 15:38:54 info : Connection to the database has been established successfully.
+2025-01-07 15:38:54 info : Database tables are synchronized.
+2025-01-07 15:41:18 info : Server is running on http://localhost:3000
+2025-01-07 15:41:18 info : Connection to the database has been established successfully.
+2025-01-07 15:41:18 info : Database tables are synchronized.
+2025-01-07 15:50:41 info : Server is running on http://localhost:3000
+2025-01-07 15:50:41 info : Connection to the database has been established successfully.
+2025-01-07 15:50:41 info : Database tables are synchronized.
+2025-01-07 15:51:29 info : Server is running on http://localhost:3000
+2025-01-07 15:51:29 info : Connection to the database has been established successfully.
+2025-01-07 15:51:29 info : Database tables are synchronized.
+2025-01-07 16:00:30 info : Server is running on http://localhost:3000
+2025-01-07 16:00:30 info : Connection to the database has been established successfully.
+2025-01-07 16:00:30 info : Database tables are synchronized.

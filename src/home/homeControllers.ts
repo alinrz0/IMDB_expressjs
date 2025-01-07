@@ -31,13 +31,25 @@ router.get("/", async (req: Request, res: Response, next: NextFunction): Promise
             throw new Error("Network response was not ok");
         }
         const data = await response.json();
-        res.render("movieList", { data }); // Pass data to EJS template
-        
+
+        // Preprocess movie data to correct the image path
+        const processedData = data.map((movie: any) => {
+            // Assuming movie.image contains 'src/uploads/...'
+            if (movie.image && movie.image.startsWith('src\\')) {
+                movie.image = movie.image.replace('src\\', ''); // Remove 'src/' prefix
+            }
+            return movie;
+        });
+
+        // Pass the processed data to EJS template
+        res.render("movieList", { data: processedData });
+
     } catch (error) {
         console.error("Error fetching movies:", error);
         res.status(500).send("An error occurred while fetching movies.");
     }
 });
+
 
 
 

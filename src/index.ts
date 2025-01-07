@@ -50,6 +50,9 @@ app.use("/movie" ,movieControllers);
 app.use("/" ,homeControllers);
 //  
 
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
+
 
 app.use(ErrorHandelingMid)
 
@@ -57,3 +60,7 @@ app.use(ErrorHandelingMid)
 app.listen(port, () => {
   logger.info(`Server is running on http://localhost:${port}`);
 });
+
+
+
+
