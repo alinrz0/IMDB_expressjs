@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movies</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/movieList.css">
 </head>
 <body id="body">
   <h1 style="text-align: center;">Movies</h1>
   <div class="container" id="movies-container">
     <% data.forEach((movie) => { %>
-    <div class="movie-box">
+    <a href="/<%= movie.id %>" class="movie-box">
         <div class="movie-image">
             <img src="http://localhost:3000/<%= movie.image %>" alt="<%= movie.title %>" width="200">
         </div>
@@ -18,7 +18,7 @@
           <h2 class="movie-title"><%= movie.title %></h2>
           <p class="movie-year"><%= movie.description %></p>
         </div>
-      </div>
+    </a>
       <% }) %>
       
   </div>

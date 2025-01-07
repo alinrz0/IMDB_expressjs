@@ -6,24 +6,6 @@ import logger from "../helper/logger";
 
 const router = Router();
 
-router.get("/my", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
-    try {
-        const token = req.cookies.token?.token;
-        if (!token) {
-            res.status(401).json({ message: "Token not found or invalid" });
-            return;
-        }
-        // Decode token to get user details
-        const user = decodeToken(token);
-        // Fetch all movies created by the logged-in user
-        const userMovies = await movieModel.findAll({ where: { user_id: user.id } });
-        res.status(200).json(userMovies);
-    } catch (error) {
-        logger.error(error);
-        next(error);
-    }
-});
-
 router.get("/", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
         const response = await fetch("http://localhost:3000/movie");
@@ -54,23 +36,31 @@ router.get("/", async (req: Request, res: Response, next: NextFunction): Promise
 
 
 
-// Get a single movie by ID
 router.get("/:id", async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-        const movieId = parseInt(req.params.id);
-        const movie = await movieModel.findOne({ where: { id: movieId } });
+        const movieId = req.params.id;
 
-        if (!movie) {
-            res.status(404).json({ message: "Movie not found" });
-            return;
+        // Fetch movie details from the API or database
+        const response = await fetch(`http://localhost:3000/movie/${movieId}`);
+        if (!response.ok) {
+            throw new Error("Failed to fetch movie details.");
+        }
+        const movie = await response.json();
+
+        // Preprocess the movie image path if needed
+        if (movie.image && movie.image.startsWith('src\\')) {
+            movie.image = movie.image.replace('src\\', '');
         }
 
-        res.status(200).json(movie);
+        // Render the movie details template
+        res.render("movieDetail", { movie });
+
     } catch (error) {
-        logger.error(error);
-        next(error);
+        console.error("Error fetching movie details:", error);
+        res.status(500).send("An error occurred while fetching movie details.");
     }
 });
+
 
 
 export default router;

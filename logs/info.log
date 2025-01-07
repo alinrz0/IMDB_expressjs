@@ -618,3 +618,15 @@ notNull Violation: movie.image cannot be null
 2025-01-07 16:00:30 info : Server is running on http://localhost:3000
 2025-01-07 16:00:30 info : Connection to the database has been established successfully.
 2025-01-07 16:00:30 info : Database tables are synchronized.
+2025-01-07 20:07:57 info : Server is running on http://localhost:3000
+2025-01-07 20:07:57 info : Connection to the database has been established successfully.
+2025-01-07 20:07:57 info : Database tables are synchronized.
+2025-01-07 20:10:30 info : Server is running on http://localhost:3000
+2025-01-07 20:10:30 info : Connection to the database has been established successfully.
+2025-01-07 20:10:30 info : Database tables are synchronized.
+2025-01-07 20:15:52 info : Server is running on http://localhost:3000
+2025-01-07 20:15:53 info : Connection to the database has been established successfully.
+2025-01-07 20:15:53 info : Database tables are synchronized.
+2025-01-07 20:24:34 info : Server is running on http://localhost:3000
+2025-01-07 20:24:34 info : Connection to the database has been established successfully.
+2025-01-07 20:24:34 info : Database tables are synchronized.
